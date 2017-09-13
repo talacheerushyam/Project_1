@@ -1,0 +1,573 @@
+@charset "utf-8";
+
+body{
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	width: 100%;
+	background-color: dimgray;
+	margin-left: auto;
+}
+.head{
+    color: aliceblue;
+}
+
+h1{
+	text-align: center;
+	font-family: "serif",Times New Roman, Times ;
+	font-weight: bold;
+}
+.introduction{
+	margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width:710px;
+    text-align: justify;
+}
+
+ul {
+    list-style-type: none;
+    margin:auto;
+    margin-bottom:10px;
+    padding: 10px;
+    overflow: hidden;
+    width:700px;
+    background-color:brown;
+}
+li {
+    float: left;
+    font-size: 18px;
+
+}
+
+ .ahref {
+    display: block;
+    color: white;
+    text-align: center;
+    padding-left:15px;
+    padding-right:15px;
+    text-decoration: none;
+}
+
+
+
+li a:hover:not(.active) {
+    background-color: #111;
+
+}
+
+.active {
+    background-color: #111;
+     color:white;
+}
+
+.mainDiv{
+	text-align: center;
+}
+
+th{
+	background-color:black;
+	color: white;
+	font-size: 30px;
+	padding: 5px;
+}
+a{
+	color: black;
+}
+
+.chessTable{
+	width: 650px;
+	height:650px;
+	border:20px solid black;
+	border-collapse: collapse;
+	margin-left: auto;
+    margin-right: auto;
+}
+.whiteCell, .BlackCell{
+	border:3px solid black;
+	width: 75px;
+	height:75px;
+}
+
+.whiteCell{
+	background-color: cornsilk;
+}
+
+.BlackCell{
+	background-color: brown;
+}
+
+div.content1{
+	content:url("pics/w5.png");
+	position:relative;
+	width: 75px;
+	height:75px;
+}
+
+div.content1R{
+	content:url("pics/w5.png");
+	position:relative;
+	width: 75px;
+	height:75px;
+}
+
+div.content1P{
+	content:url("pics/b6.png");
+	position:relative;
+	width: 75px;
+	height:75px;
+}
+
+div.content1Q{
+	content:url("pics/b2.png");
+	position:relative;
+	width: 75px;
+	height:75px;
+}
+
+div.content1K{
+	content:url("pics/b1.png");
+	position:relative;
+	width: 75px;
+	height:75px;
+}
+
+div.content1B{
+	content:url("pics/b3.png");
+	position:relative;
+	width: 75px;
+	height:75px;
+}
+
+div.contentPP1{
+	content:url("pics/w6.png");
+	position:relative;
+	width: 75px;
+	height:75px;
+}
+div.contentPP2{
+	content:url("pics/w6.png");
+	position:relative;
+	width: 75px;
+	height:75px;
+}
+div.contentPP3{
+	content:url("pics/w6.png");
+	position:relative;
+	width: 75px;
+	height:75px;
+}
+div.contentPP4{
+	content:url("pics/w6.png");
+	position:relative;
+	width: 75px;
+	height:75px;
+}
+div.contentPP5{
+	content:url("pics/w6.png");
+	position:relative;
+	width: 75px;
+	height:75px;
+}
+
+div.contentPPR{
+	content:url("pics/b5.png");
+	position:relative;
+	width: 75px;
+	height:75px;
+}
+div.contentPPK{
+	content:url("pics/b4.png");
+	position:relative;
+	width: 75px;
+	height:75px;
+}
+
+div.contentQQ{
+	content:url("pics/b2.png");
+	position:relative;
+	width: 75px;
+	height:75px;
+}
+div.contentQQQ2{
+	content:url("pics/b2.png");
+	position:relative;
+	width: 75px;
+	height:75px;
+}
+
+
+div.contentBB{
+	content:url("pics/b3.png");
+	position:relative;
+	width: 75px;
+	height:75px;
+}
+
+div.contentBP1{
+	content:url("pics/w6.png");
+	position:relative;
+	width: 75px;
+	height:75px;
+}
+
+div.contentBR1{
+	content:url("pics/w5.png");
+	position:relative;
+	width: 75px;
+	height:75px;
+}
+
+div.contentBR1{
+	content:url("pics/w5.png");
+	position:relative;
+	width: 75px;
+	height:75px;
+}
+
+div.contentBR1{
+	content:url("pics/w5.png");
+	position:relative;
+	width: 75px;
+	height:75px;
+}
+
+div.contentQQ1{
+	content:url("pics/w2.png");
+	position:relative;
+	width: 75px;
+	height:75px;
+}
+
+div.contentQQK{
+	content:url("pics/w4.png");
+	position:relative;
+	width: 75px;
+	height:75px;
+}
+
+div.contentKing{
+	content:url("pics/b1.png");
+	position:relative;
+	width: 75px;
+	height:75px;
+}
+div.contentKingBishop{
+	content:url("pics/w3.png");
+	position:relative;
+	width: 75px;
+	height:75px;
+}
+div.contentKingPawn{
+	content:url("pics/w6.png");
+	position:relative;
+	width: 75px;
+	height:75px;
+}
+div.contentKingKnight{
+	content:url("pics/w4.png");
+	position:relative;
+	width: 75px;
+	height:75px;
+}
+
+div.contentKnight{
+	content:url("pics/b4.png");
+	position:relative;
+	width: 75px;
+	height:75px;
+}
+div.contentKnightPawn{
+	content:url("pics/w6.png");
+	position:relative;
+	width: 75px;
+	height:75px;
+}
+div.contentKnightKnight{
+	content:url("pics/w4.png");
+	position:relative;
+	width: 75px;
+	height:75px;
+}
+
+div.contentcolor{
+	width: 75px;
+	height:75px;
+	background-color:yellow;
+}
+
+div.content1:hover {
+	background-color:yellow;
+    animation: content1Hover 10s 1;
+}
+
+div.content1R:hover {
+	background-color:yellow;
+    animation: content1RHover 10s 1;
+}
+
+div.contentPP1:hover {
+	background-color:yellow;
+    animation: contentPP1Hover 5s 1;
+}
+
+div.contentPP2:hover {
+	background-color:yellow;
+    animation: contentPP2Hover 5s 1;
+}
+div.contentPP3:hover {
+	background-color:yellow;
+    animation: contentPP3Hover 5s 1;
+}
+div.contentPP4:hover {
+	background-color:yellow;
+    animation: contentPP4Hover 5s 1;
+}
+div.contentPP5:hover {
+	background-color:yellow;
+    animation: contentPP5Hover 5s 1;
+}
+
+div.contentBB:hover {
+	background-color:yellow;
+    animation: contentBBHover 5s 1;
+}
+
+div.contentQQQ2:hover {
+	background-color:yellow;
+    animation: contentQQQ2Hover 9s 1;
+}
+
+div.contentKing:hover {
+	background-color:yellow;
+    animation: contentKingHover 9s 1;
+}
+
+div.contentKnight:hover {
+	background-color:yellow;
+    animation: contentKnightHover 9s 1;
+}
+
+@keyframes contentKnightHover {
+
+	0%   {left: 0px; top: 0px;}
+    2%   {left: -170px; top: 0px;}
+    5%  {left: -170px; top: -85px;}
+    7%   {left: -170px; top: 0px;}
+    10%  {left: 0px; top: 0px;}
+
+    12%   {left: 0px; top: 0px;}
+    15%   {left: -170px; top: 0px;}
+    17%  {left: -170px; top: 85px;}
+    20%   {left: -170px; top: 0px;}
+    22%  {left: 0px; top: 0px;}
+
+    25%   {left: 0px; top: 0px;}
+    27%   {left: 0px; top: -170px;}
+    30%  {left: -85px; top: -170px;}
+    32%   {left: 0px; top: -170px;}
+    35%  {left: 0px; top: 0px;}
+
+    37%   {left: 0px; top: 0px;}
+    40%   {left: 0px; top: -170px;}
+    42%  {left: 85px; top: -170px;}
+    45%   {left: 0px; top: -170px;}
+    47%  {left: 0px; top: 0px;}
+
+    50%   {left: 0px; top: 0px;}
+    52%   {left: 170px; top: 0px;}
+    55%  {left: 170px; top: -85px;}
+    57%   {left: 170px; top: 0px;}
+    60%  {left: 0px; top: 0px;}
+
+    62%   {left: 0px; top: 0px;}
+    65%   {left: 170px; top: 0px;}
+    67%  {left: 170px; top: 85px;}
+    69%   {left: 170px; top: 0px;}
+    70%  {left: 0px; top: 0px;}
+
+    72%   {left: 0px; top: 0px;}
+    75%   {left: 0px; top: 170px;}
+    77%  {left: -85px; top: 170px;}
+    80%   {left: 0px; top: 170px;}
+    82%  {left: 0px; top: 0px;}
+
+    87%   {left: 0px; top: 0px;}
+    90%   {left: 00px; top: 170px;}
+    92%  {left: 85px; top: 170px;}
+    95%   {left: 0px; top: 170px;}
+    100%  {left: 0px; top: 0px;}
+
+}
+
+
+@keyframes contentKingHover {
+
+	0%   {left: 0px; top: 0px;}
+    5%  {left: -85px; top: 0px;}
+    10%  {left: 0px; top: 0px;}
+
+    15%   {left: 0px; top: 0px;}
+    20%  {left: 85px; top: 0px;}
+    25%  {left: 0px; top: 0px;}
+
+    30%   {left: 0px; top: 0px;}
+    35%  {left: 0px; top: 85px;}
+    40%  {left: 0px; top: 0px;}
+
+    42%   {left: 0px; top: 0px;}
+    45%  {left: 0px; top: -85px;}
+    49%  {left: 0px; top: 0px;}
+
+    50%   {left: 0px; top: 0px;}
+    55%  {left: -85px; top: 85px;}
+    60%  {left: 0px; top: 0px;}
+
+    65%  {left: 0px; top: 0px;}
+    70%  {left: 85px; top: -85px;}
+    75%  {left: 0px; top: 0px;}
+
+    80%  {left: 0px; top: 0px;}
+    85%  {left: -85px; top: -85px;}
+    89% {left: 0px; top: 0px;}
+
+    90%  {left: 0px; top: 0px;}
+    95%  {left: 85px; top: 85px;}
+    100% {left: 0px; top: 0px;}
+}
+
+@keyframes contentQQQ2Hover {
+
+	0%   {left: 0px; top: 0px;}
+    5%  {left: -235px; top: 0px;}
+    10%  {left: 0px; top: 0px;}
+
+    15%   {left: 0px; top: 0px;}
+    20%  {left: 310px; top: 0px;}
+    25%  {left: 0px; top: 0px;}
+
+    30%   {left: 0px; top: 0px;}
+    35%  {left: 0px; top: 310px;}
+    40%  {left: 0px; top: 0px;}
+
+    42%   {left: 0px; top: 0px;}
+    45%  {left: 0px; top: -235px;}
+    49%  {left: 0px; top: 0px;}
+
+    50%   {left: 0px; top: 0px;}
+    55%  {left: -235px; top: 235px;}
+    60%  {left: 0px; top: 0px;}
+
+    65%  {left: 0px; top: 0px;}
+    70%  {left: 235px; top: -235px;}
+    75%  {left: 0px; top: 0px;}
+
+    80%  {left: 0px; top: 0px;}
+    85%  {left: -235px; top: -235px;}
+    89% {left: 0px; top: 0px;}
+
+    90%  {left: 0px; top: 0px;}
+    95%  {left: 310px; top: 310px;}
+    100% {left: 0px; top: 0px;}
+}
+
+
+@keyframes contentBBHover {
+     0%   {left: 0px; top: 0px;}
+    10%  {left: -235px; top: 235px;}
+    20%  {left: 0px; top: 0px;}
+
+    30%  {left: 0px; top: 0px;}
+    40%  {left: 235px; top: -235px;}
+    50% {left: 0px; top: 0px;}
+
+    60%  {left: 0px; top: 0px;}
+    70%  {left: -235px; top: -235px;}
+    80% {left: 0px; top: 0px;}
+
+    85%  {left: 0px; top: 0px;}
+    90%  {left: 310px; top: 310px;}
+    100% {left: 0px; top: 0px;}
+}
+
+
+
+@keyframes contentPP1Hover {
+     0%   {left: 0px; top: 0px;}
+    20%  {left: 0px; top: -170px;}
+    40%  {left: 0px; top: 0px;}
+
+    65%  {left: 0px; top: 0px;}
+    75%  {left: 0px; top: -85px;}
+    100% {left: 0px; top: 0px;}
+}
+
+@keyframes contentPP2Hover {
+     0%   {left: 0px; top: 0px;}
+    20%  {left: 0px; top: -170px;}
+    40%  {left: 0px; top: 0px;}
+
+    65%  {left: 0px; top: 0px;}
+    75%  {left: 0px; top: -85px;}
+    100% {left: 0px; top: 0px;}
+}
+
+@keyframes contentPP3Hover {
+     0%   {left: 0px; top: 0px;}
+    50%  {left: 0px; top: -85px;}
+    100%  {left: 0px; top: 0px;}
+}
+
+@keyframes contentPP4Hover {
+     0%   {left: 0px; top: 0px;}
+    50%  {left: 85px; top: -85px;}
+    100%  {left: 0px; top: 0px;}
+}
+
+@keyframes contentPP5Hover {
+     0%   {left: 0px; top: 0px;}
+    50%  {left: -85px; top: -85px;}
+    100%  {left: 0px; top: 0px;}
+}
+
+
+@keyframes content1RHover {
+     0%   {left: 0px; top: 0px;}
+    15%  {left: 235px; top: 0px;}
+    20%  {left: 0px; top: 0px;}
+
+    35%  {left: 0px; top: 0px;}
+    45%  {left: -170px; top: 0px;}
+    50% {left: 0px; top: 0px;}
+
+    55%  {left: 0px; top: 0px;}
+    65%  {left: 0px; top: 235px;}
+    70% {left: 0px; top: 0px;}
+
+    85%  {left: 0px; top: 0px;}
+    90%  {left: 0px; top: -170px;}
+    100% {left: 0px; top: 0px;}
+}
+
+
+@keyframes content1Hover {
+     0%   {left: 0px; top: 0px;}
+    15%  {left: 315px; top: 0px;}
+    20%  {left: 0px; top: 0px;}
+
+    35%  {left: 0px; top: 0px;}
+    45%  {left: -200px; top: 0px;}
+    50% {left: 0px; top: 0px;}
+
+    55%  {left: 0px; top: 0px;}
+    65%  {left: 0px; top: 310px;}
+    70% {left: 0px; top: 0px;}
+
+    85%  {left: 0px; top: 0px;}
+    90%  {left: 0px; top: -235px;}
+    100% {left: 0px; top: 0px;}
+}
+
+footer{
+	font-size: 10px;
+	text-align: center;
+}
